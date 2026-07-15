@@ -1,0 +1,39 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    margin: 0;
+}
+
+span{
+    display: block;
+    padding: auto;
+    margin-left: 10px;
+    margin-bottom: 12px;
+}
+
+.button{
+    border: 2px solid black;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#purple{
+    background-color: purple;
+}
+#blue{
+    background-color: blue;
+}
+#brown{
+    background-color: brown;
+}
+#white{
+    background-color: white;
+}
+
+h1{
+    margin: 20px;
+}
+h2{
+    margin: 20px;
+}
