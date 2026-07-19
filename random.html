@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JAVASCRIPT</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+      let js;
+      const startJsText = function (){
+         js = setInterval(function(){
+            console.log('JS is hard', Math.random() *10 + 1)
+        },1000)
+      }
+
+      const stopJsText = function(){
+        clearInterval(js)
+      }
+
+
+    document.querySelector("#start").addEventListener('click', startJsText)
+
+    document.querySelector('#stop').addEventListener('click', stopJsText)
+
+   
+
+
+
+
+</script>
+</html>
